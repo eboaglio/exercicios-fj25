@@ -1,0 +1,8 @@
+package br.com.caeum.financas.modelo;
+
+public class Conta {
+	private String titular;
+	private String banco;
+	private String numero;
+	private String agencia;
+}

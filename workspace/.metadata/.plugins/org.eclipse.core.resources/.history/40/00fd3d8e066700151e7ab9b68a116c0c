@@ -1,0 +1,35 @@
+package br.com.caelum.financas.dao;
+
+import javax.persistence.EntityManager;
+
+import br.com.caelum.financas.modelo.Conta;
+
+public class ContaDAO {
+	
+	private EntityManager manager;
+	
+	public ContaDAO(EntityManager manager){
+		this.manager = manager;
+	}
+
+	public void adiciona(Conta conta){
+		this.manager.getTransaction().begin();
+		this.manager.getTransaction().commit();
+	}
+	
+	public void salva(Conta conta){
+		this.manager.persist(conta);
+	}
+	
+	public Conta busca(Integer id){
+		return this.manager.find(Conta.class, id);
+	}
+	
+	public void exclui(Conta conta){
+		this.manager.remove(conta);
+	}
+	
+	public List<Conta> lista(){
+		return this.manager.createQuery("select c from Conta c").getResultList();
+	}
+}

@@ -1,0 +1,31 @@
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name="tb_contas_bancarias")
+@Entity
+public class Conta {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private Integer id;
+	private String titular;
+	private String banco;
+	private String agencia;
+	private String numero;
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+	public void setBanco(String banco) {
+		this.banco = banco;
+	}
+	public void setAgencia(String agencia) {
+		this.agencia = agencia;
+	}
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+}

@@ -1,0 +1,23 @@
+package br.com.caelum.financas.teste;
+
+import java.util.Calendar;
+
+import javax.persistence.EntityManager;
+
+import br.com.caelum.financas.dao.MovimentacaoDAO;
+import br.com.caelum.financas.modelo.Movimentacao;
+import br.com.caelum.financas.modelo.TipoMovimentacao;
+import br.com.caelum.financas.util.JPAUtil;
+
+public class TestaMovimentacao {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		MovimentacaoDAO dao = new MovimentacaoDAO(manager);
+		
+		Movimentacao movimentacao = new Movimentacao();
+		movimentacao.setData(Calendar.getInstance());
+		movimentacao.setDescricao("conta de luz - outubro/2015");
+		movimentacao.setValor("100");
+		movimentacao.setTipo(TipoMovimentacao.SAIDA);
+	}
+}

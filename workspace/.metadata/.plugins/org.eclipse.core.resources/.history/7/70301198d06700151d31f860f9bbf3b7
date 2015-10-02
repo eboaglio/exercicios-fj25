@@ -1,0 +1,37 @@
+package br.com.caelum.financas.teste;
+
+import java.math.BigDecimal;
+import java.util.Calendar;
+
+import javax.persistence.EntityManager;
+
+import br.com.caelum.financas.dao.MovimentacaoDAO;
+import br.com.caelum.financas.modelo.Conta;
+import br.com.caelum.financas.modelo.Movimentacao;
+import br.com.caelum.financas.modelo.TipoMovimentacao;
+import br.com.caelum.financas.util.JPAUtil;
+
+public class TestaMovimentacao {
+	public static void main(String[] args) {
+		EntityManager manager = new JPAUtil().getEntityManager();
+		manager.getTransaction().begin();
+		MovimentacaoDAO dao = new MovimentacaoDAO(manager);
+		
+		Conta conta = new Conta();
+		conta.setTitular("Eliana Boaglio");
+		conta.setBanco("Santander");
+		conta.setAgencia("4550");
+		conta.setNumero("123456-6");
+
+		Movimentacao movimentacao = new Movimentacao();
+		movimentacao.setData(Calendar.getInstance());
+		movimentacao.setDescricao("conta de luz - outubro/2015");
+		movimentacao.setValor(new BigDecimal("100"));
+		movimentacao.setTipo(TipoMovimentacao.SAIDA);
+		
+		dao.adiciona(movimentacao);
+		dao.salva(movimentacao);
+		manager.close();
+		
+	}
+}

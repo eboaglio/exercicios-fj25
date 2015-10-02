@@ -1,0 +1,20 @@
+package br.com.caelum.financas.dao;
+
+import javax.persistence.EntityManager;
+
+import br.com.caelum.financas.modelo.Conta;
+
+public class ContaDAO {
+	
+	private EntityManager manager;
+	
+	public ContaDAO(EntityManager manager){
+		this.manager = manager;
+	}
+
+	public void adiciona(Conta conta){
+		this.manager.getTransaction().begin();
+		this.manager.persist(conta);
+		this.manager.getTransaction().commit();
+	}
+}
