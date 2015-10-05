@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.util.JPAUtil"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.DynamicUpdate"/>
@@ -20,5 +19,8 @@
 <fullyQualifiedTypeName name="java.math.BigDecimal"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.ContaDAO"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDAO"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDao"/>
+<fullyQualifiedTypeName name="br.com.caelum.financas.dao.ContaDao"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.modelo.Movimentacao"/>
 </qualifiedTypeNameHistroy>
