@@ -16,11 +16,20 @@
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.modelo.TipoMovimentacao"/>
-<fullyQualifiedTypeName name="java.math.BigDecimal"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.ContaDAO"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDAO"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDao"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.ContaDao"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.modelo.Movimentacao"/>
+<fullyQualifiedTypeName name="javax.inject.Singleton"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="javax.ejb.Singleton"/>
+<fullyQualifiedTypeName name="javax.ejb.AccessTimeout"/>
+<fullyQualifiedTypeName name="javax.ejb.TimerService"/>
+<fullyQualifiedTypeName name="javax.ejb.ScheduleExpression"/>
+<fullyQualifiedTypeName name="javax.ejb.TimerConfig"/>
+<fullyQualifiedTypeName name="javax.ejb.Timer"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 </qualifiedTypeNameHistroy>
