@@ -41,7 +41,7 @@ public class Agendador {
 		System.out.println(timer.getInfo());
 	}
 
-	@Schedule(hour = "*", minute = "*/1", second = "0", persistent = false)
+	//@Schedule(hour = "*", minute = "*/1", second = "0", persistent = false)
 	public void enviaEmail() {
 		System.out.println("Enviando email a cada minuto");
 	}

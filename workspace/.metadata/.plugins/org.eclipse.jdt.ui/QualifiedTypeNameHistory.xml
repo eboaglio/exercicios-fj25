@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.util.JPAUtil"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.DynamicUpdate"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.modelo.Conta"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
@@ -15,13 +14,10 @@
 <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="br.com.caelum.financas.modelo.TipoMovimentacao"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.ContaDAO"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDAO"/>
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-<fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDao"/>
 <fullyQualifiedTypeName name="br.com.caelum.financas.dao.ContaDao"/>
-<fullyQualifiedTypeName name="br.com.caelum.financas.modelo.Movimentacao"/>
 <fullyQualifiedTypeName name="javax.inject.Singleton"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="javax.ejb.Singleton"/>
@@ -30,6 +26,12 @@
 <fullyQualifiedTypeName name="javax.ejb.ScheduleExpression"/>
 <fullyQualifiedTypeName name="javax.ejb.TimerConfig"/>
 <fullyQualifiedTypeName name="javax.ejb.Timer"/>
-<fullyQualifiedTypeName name="java.math.BigDecimal"/>
 <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="br.com.caelum.financas.modelo.Movimentacao"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="br.com.caelum.financas.modelo.ValorPorMesEAno"/>
+<fullyQualifiedTypeName name="br.com.caelum.financas.modelo.TipoMovimentacao"/>
+<fullyQualifiedTypeName name="br.com.caelum.financas.dao.MovimentacaoDao"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
