@@ -27,8 +27,6 @@ public class Movimentacao {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Calendar data;
 	private BigDecimal valor;
-	@ManyToOne
-	@JoinColumn(name="id_conta")
 	private Conta conta;
 	@Enumerated(EnumType.STRING)
 	private TipoMovimentacao tipo;

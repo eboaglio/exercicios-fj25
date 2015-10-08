@@ -1,0 +1,8 @@
+package br.com.caelum.financas.dao;
+
+import java.io.Serializable;
+
+@Stateless
+public class CategoriaDao implements Serializable{
+
+}

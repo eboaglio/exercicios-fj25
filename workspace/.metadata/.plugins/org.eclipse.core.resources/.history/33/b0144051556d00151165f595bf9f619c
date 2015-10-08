@@ -1,0 +1,10 @@
+package br.com.caelum.financas.dao;
+
+import javax.persistence.EntityManager;
+
+import br.com.caelum.financas.util.JPAUtil;
+
+public class Bruxaria {
+
+	private EntityManager manager = new JPAUtil().getEntityManager();
+}

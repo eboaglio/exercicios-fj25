@@ -1,0 +1,14 @@
+package br.com.caelum.financas.dao;
+
+import java.io.Serializable;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class CategoriaDao implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	
+	
+
+}

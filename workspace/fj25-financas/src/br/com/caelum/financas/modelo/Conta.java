@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
 
-@Table(name="tb_contas_bancarias")
+//@Table(name="tb_contas_bancarias")
 @Entity
 @DynamicUpdate
 public class Conta {

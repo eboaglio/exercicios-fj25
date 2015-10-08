@@ -39,5 +39,4 @@
 			<property name="hibernate.c3p0.idle_test_period" value="100" />
 		</properties>
 	</persistence-unit>
-
 </persistence>

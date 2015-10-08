@@ -1,0 +1,6 @@
+package br.com.caelum.financas.dao;
+
+@Stateless
+public class CategoriaDao {
+
+}

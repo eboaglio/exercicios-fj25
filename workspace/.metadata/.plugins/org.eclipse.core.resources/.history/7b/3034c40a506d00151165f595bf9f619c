@@ -1,0 +1,19 @@
+package br.com.caelum.financas.dao;
+
+import java.io.Serializable;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+@Stateless
+public class CategoriaDao implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	
+	@PersistenceContext
+	private EntityManager manager;
+	
+	
+
+}
