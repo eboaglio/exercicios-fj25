@@ -3776,3 +3776,35 @@ Caused by: javax.faces.application.ViewExpiredException: viewId:/contas.xhtml - 
 2015-10-09 22:44:06,872 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
 2015-10-09 22:44:06,873 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
 2015-10-09 22:44:06,875 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 15014ms - Started 392 of 494 services (174 services are lazy, passive or on-demand)
+2015-10-09 22:58:16,371 INFO  [org.jboss.modcluster] (ServerService Thread Pool -- 60) MODCLUSTER000002: Initiating mod_cluster shutdown
+2015-10-09 22:58:16,372 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017535: Unregistered web context: /fj25-financas-web
+2015-10-09 22:58:16,388 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017532: Host default-host stopping
+2015-10-09 22:58:16,403 INFO  [stdout] (ServerService Thread Pool -- 60) Destruindo agendador
+2015-10-09 22:58:16,414 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-10-09 22:58:16,419 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010418: Stopped Driver service with driver-name = h2
+2015-10-09 22:58:16,423 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'fj25-financas-web.war#financas'
+2015-10-09 22:58:16,445 INFO  [org.infinispan.eviction.PassivationManagerImpl] (ServerService Thread Pool -- 59) ISPN000029: Passivating all entries to disk
+2015-10-09 22:58:16,452 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) JBAS010282: Stopped fj25-financas-web.war#financas.br.com.caelum.financas.modelo.Conta cache from hibernate container
+2015-10-09 22:58:16,453 INFO  [org.infinispan.eviction.PassivationManagerImpl] (ServerService Thread Pool -- 59) ISPN000030: Passivated 0 entries in 7 milliseconds
+2015-10-09 22:58:16,465 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) JBAS010282: Stopped fj25-financas-web.war#financas.org.hibernate.cache.internal.StandardQueryCache cache from hibernate container
+2015-10-09 22:58:16,475 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) JBAS010282: Stopped dist cache from ejb container
+2015-10-09 22:58:16,491 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) JBAS010282: Stopped fj25-financas-web.war#financas.org.hibernate.cache.spi.UpdateTimestampsCache cache from hibernate container
+2015-10-09 22:58:16,498 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000080: Disconnecting JGroups Channel
+2015-10-09 22:58:16,538 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-4) ISPN000082: Stopping the RpcDispatcher
+2015-10-09 22:58:16,557 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 60) ISPN000031: MBeans were successfully registered to the platform MBean server.
+2015-10-09 22:58:16,565 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) JBAS010281: Started local-query cache from hibernate container
+2015-10-09 22:58:16,577 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016009: Stopping weld service for deployment fj25-financas-web.war
+2015-10-09 22:58:16,623 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017521: Undertow AJP listener ajp suspending
+2015-10-09 22:58:16,623 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017521: Undertow HTTP listener default suspending
+2015-10-09 22:58:16,627 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'fj25-financas-web.war#financas'
+2015-10-09 22:58:16,636 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017520: Undertow AJP listener ajp stopped, was bound to localhost/127.0.0.1:8009
+2015-10-09 22:58:16,639 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Unbound data source [java:/fj25DS]
+2015-10-09 22:58:16,653 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-5) JBAS010282: Stopped local-query cache from hibernate container
+2015-10-09 22:58:16,659 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2015-10-09 22:58:16,659 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment fj25-financas-web.war (runtime-name: fj25-financas-web.war) in 325ms
+2015-10-09 22:58:16,675 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010418: Stopped Driver service with driver-name = com.mysql
+2015-10-09 22:58:16,716 INFO  [org.jboss.as.clustering.infinispan] (MSC service thread 1-5) JBAS010282: Stopped pending-puts cache from hibernate container
+2015-10-09 22:58:16,726 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017506: Undertow 1.0.15.Final stopping
+2015-10-09 22:58:16,730 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000080: Disconnecting JGroups Channel
+2015-10-09 22:58:16,744 INFO  [org.infinispan.remoting.transport.jgroups.JGroupsTransport] (MSC service thread 1-5) ISPN000082: Stopping the RpcDispatcher
+2015-10-09 22:58:16,760 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 409ms
