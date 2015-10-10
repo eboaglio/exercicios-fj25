@@ -1,0 +1,8 @@
+package br.com.caelum.financas.validator;
+
+import java.lang.annotation.Target;
+
+@Target(ElementType.TYPE)
+public interface NumeroEAgencia {
+
+}

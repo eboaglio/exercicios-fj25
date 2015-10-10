@@ -19,10 +19,11 @@
 			<property name="hibernate.format_sql" value="false" />
 			
 			<!-- poderia ser: update, create, create-drop, none -->
-			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.hbm2ddl.auto" value="create" />
 			
 			<!-- Indica que o WildFly/Hibernate deve usar cache de segundo nível -->
 			<property name="hibernate.cache.use_second_level_cache" value="true" />
+			<property name="hibernate.cache.use_query_cache" value="true" />
 			
 			<!-- Estratégia do cache de segundo nível -->
 		</properties>

@@ -1,0 +1,8 @@
+package br.com.caelum.financas.modelo;
+
+public class Endereco {
+
+	private String rua;
+	private String cidade;
+	private estado;
+}
